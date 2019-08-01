@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/doc/git-cook-book.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="55" />
+              <first_editor relative-caret-position="306">
+                <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -211,12 +211,12 @@
       <updated>1564565458369</updated>
       <workItem from="1564565459607" duration="4065000" />
       <workItem from="1564570190446" duration="1291000" />
-      <workItem from="1564644684733" duration="11577000" />
+      <workItem from="1564644684733" duration="12654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16933000" />
+    <option name="totallyTimeSpent" value="18010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,9 +229,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.5016026" side_tool="true" weight="0.21390937" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.23340358" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.23340358" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.21390937" />
       <window_info id="Favorites" order="2" sideWeight="0.50123763" side_tool="true" weight="0.24984616" />
       <window_info anchor="bottom" id="缩略图" weight="0.32920793" />
@@ -245,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920793" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32920793" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28787878" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28787878" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -596,8 +597,8 @@
     <entry file="file://$PROJECT_DIR$/doc/git-cook-book.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="55" />
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>

@@ -6,10 +6,16 @@
     $ git checkout -b branchName
 -------------
 新建远程分支并与本地分支关联： 
-
-    $ git push origin local_branch_name:origin_branch_name
     
-    $ git push --set-upstream origin origin_branch_name
+    $ git push --set-upstream  origin origin_branch_name 关联远程分支 
+    
+    $ git push        -u       origin origin_branch_name 关联远程分支  --set-upsteam 等同于 -u
+-------------
+推送更改到远程分支
+    
+    $ git push origin local_branch_name:origin_branch_name   显式要推送的本地分支 和 要推送到的指定远程分支
+    
+    $ git push 用于将本地分支的更改推送到对应的远程分支
 -------------
 查看日志： 
 
@@ -22,6 +28,8 @@
     $ git reset --hard HEAD~3  等价于 $ git reset --hard HEAD^^^
     
     $ git reset --hard c3b4d5g9   c3b4d5g9代表commit信息对应的版本号
+    
+    $ git reset –-soft veriosn  仅仅回退commit, 即 只撤销 commit, 并不撤销本地修改
 -------------
 查看操作记录
 
