@@ -5,17 +5,34 @@
 
     $ git checkout -b branchName
 -------------
+将远程分支内容映射到本地分支： 
+
+    $ git checkout -b local-branch_name origin/origin_branch_name
+-------------
 新建远程分支并与本地分支关联： 
     
     $ git push --set-upstream  origin origin_branch_name 关联远程分支 
     
+    $ git branch --set-upstream-to=origin/origin_branch_name 关联远程分支
+    
     $ git push        -u       origin origin_branch_name 关联远程分支  --set-upsteam 等同于 -u
+
+-------------
+取消远程分支与本地分支的关联
+
+    $ git branch --unset-upstream origin_branch_name
 -------------
 推送更改到远程分支
     
-    $ git push origin local_branch_name:origin_branch_name   显式要推送的本地分支 和 要推送到的指定远程分支
+    $ git push origin local_branch_name:origin_branch_name   显式地指定 要推送 的本地分支 和 要推送到 的远程分支
     
     $ git push 用于将本地分支的更改推送到对应的远程分支
+-------------
+删除分支
+
+    $ git branch -d local_branch_name       删除本地分支
+    
+    $ git push origin  :origin_branch_name  推送一个空的分支到要删除的远程分支，删除远程分支
 -------------
 查看日志： 
 
