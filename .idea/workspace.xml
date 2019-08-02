@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3240b487-43c1-4998-973d-13c6e831051e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/doc/git-cook-book.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-474">
+              <first_editor relative-caret-position="684">
                 <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               </first_editor>
               <second_editor />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="306">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -136,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +142,16 @@
               <item name="front-end-engineering" type="b2602c69:ProjectViewProjectNode" />
               <item name="front-end-engineering" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="front-end-engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front-end-engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,15 +165,15 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/assets/vue.png" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\front-end-engineering\src\mock\index" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\front-end-engineering" />
       <recent name="D:\front-end-engineering\src\service\server" />
       <recent name="D:\front-end-engineering\src\utils" />
       <recent name="D:\front-end-engineering\src\views\index\common" />
       <recent name="D:\front-end-engineering\src\views\index\common\modules" />
-      <recent name="D:\front-end-engineering\src\views\index\common\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\front-end-engineering\src\mock\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +234,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19595000" />
+    <option name="totallyTimeSpent" value="19640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,7 +249,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.23340358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.23340358" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.21390937" />
       <window_info id="Favorites" order="2" sideWeight="0.50123763" side_tool="true" weight="0.24984616" />
       <window_info id="npm" order="3" sideWeight="0.5016026" side_tool="true" weight="0.21390937" />
@@ -259,7 +263,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920793" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32920793" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42470205" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42470205" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="缩略图" order="12" weight="0.32920793" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -345,7 +349,7 @@
     <entry file="file://$PROJECT_DIR$/doc/git-cook-book.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-474">
+          <first_editor relative-caret-position="684">
             <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           </first_editor>
           <second_editor />
@@ -354,8 +358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
