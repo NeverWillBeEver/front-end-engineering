@@ -1,0 +1,55 @@
+{
+  "name": "fornt-end-engineering",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve:production": "vue-cli-service serve --mode production",
+    "serve": "vue-cli-service serve",
+    "serve:fat": "vue-cli-service serve --mode fat",
+    "serve:uat": "vue-cli-service serve --mode uat",
+    "build:production": "vue-cli-service build",
+    "build:fat": "vue-cli-service build --mode fat",
+    "build:uat": "vue-cli-service build --mode uat",
+    "fat": "npm run build:fat",
+    "uat": "npm run build:uat",
+    "prod": "npm run build:production",
+    "prd": "npm run prod",
+    "pro": "npm run prod",
+    "lint": "vue-cli-service lint",
+    "commit": "git add . && git-cz"
+  },
+  "gitHooks": {
+    "commit-msg": "node scripts/verify-commit-msg.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "vue": "^2.5.21",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.2",
+    "@types/mockjs": "^1.0.2",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-typescript": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "file-loader": "^3.0.1",
+    "git-cz": "^3.0.1",
+    "node-sass": "^4.9.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.0.1",
+    "typescript": "^3.4.0-dev.20190221",
+    "vconsole": "^3.3.0",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

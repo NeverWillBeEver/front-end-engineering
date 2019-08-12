@@ -1,0 +1,94 @@
+@mixin utils-user-select($value) {
+  -moz-user-select: $value;
+  -webkit-user-select: $value;
+  -ms-user-select: $value;
+}
+
+@mixin utils-clearfix {
+  $selector: &;
+
+  @at-root {
+    #{$selector}::before,
+    #{$selector}::after {
+      display: table;
+      content: "";
+    }
+    #{$selector}::after {
+      clear: both
+    }
+  }
+}
+
+@mixin utils-vertical-center {
+  $selector: &;
+
+  @at-root {
+    #{$selector}::after {
+      display: inline-block;
+      content: "";
+      height: 100%;
+      vertical-align: middle
+    }
+  }
+}
+
+@mixin utils-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin utils-flex($justify: flex-start, $align: flex-start, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin utils-scrollbar {
+  &::-webkit-scrollbar{
+    width: 9px;
+    height: 10px;
+    padding-top: 0;
+  }
+  &::-webkit-scrollbar-track{
+    display:none;
+  }
+  &::-webkit-scrollbar-button {
+    display:none;
+  }
+  &::-webkit-scrollbar-thumb{
+    //background-color:#ECD6C5;
+    border-radius:10px;
+    height: 30px;
+    width: 5px;
+    border: none;
+    background: #ddd;
+  }
+  &::-webkit-scrollbar-track-piece{
+    display:none;
+  }
+  &::-webkit-scrollbar-corner{
+    display:none;
+  }
+}
+@mixin utils-ellipsis($line: 2) {
+  @if $line == 1 {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line;
+    overflow: hidden;
+  }
+}
+@mixin disableUserSelect() {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
