@@ -38,9 +38,9 @@
   "devDependencies": {
     "@types/js-cookie": "^2.2.2",
     "@types/mockjs": "^1.0.2",
-    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-babel": "^3.9.2",
     "@vue/cli-plugin-typescript": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
+    "@vue/cli-service": "^5.0.8",
     "compression-webpack-plugin": "^2.0.0",
     "file-loader": "^3.0.1",
     "git-cz": "^3.0.1",
